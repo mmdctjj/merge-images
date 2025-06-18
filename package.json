@@ -1,0 +1,25 @@
+{
+  "name": "merge-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "publish-packages": "pnpm -r publish --no-git-checks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  },
+  "workspaces": {
+    "packages": [
+      "merge-images-core",
+      "webpack-plugin-merge-images",
+      "vite-plugin-merge-images"
+    ]
+  }
+}
