@@ -31,10 +31,10 @@
   },
   "devDependencies": {
     "@types/spritesmith": "^3.4.5",
-    "father": "^4.5.6",
-    "spritesmith": "^3.5.1"
+    "father": "^4.5.6"
   },
   "dependencies": {
-    "fast-glob": "^3.3.3"
+    "fast-glob": "^3.3.3",
+    "spritesmith": "^3.5.1"
   }
 }
